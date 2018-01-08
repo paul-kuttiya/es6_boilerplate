@@ -1,0 +1,17 @@
+{
+  "name": "es6_boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel src --watch --out-dir lib",
+    "beautify": "js-beautify --replace"
+  },
+  "author": "Paul Kuttiya",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "js-beautify": "^1.7.5"
+  }
+}
